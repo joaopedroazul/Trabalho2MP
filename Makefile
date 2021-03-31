@@ -28,7 +28,7 @@ check:
 	cppcheck --enable=warning  $(SDIR)/romanos.cpp
 
 valgrind:
-	valgrind --leak-check=full  ./trabalho 
+	-valgrind --leak-check=full  ./trabalho 
 
 cpplint:
 	- cpplint $(IDIR)/romanos.hpp

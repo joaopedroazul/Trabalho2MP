@@ -9,5 +9,5 @@
 using std::string;
 
 int toInt(string numRomano);
-bool checkString(string numRomano);
+int checkString(string numRomano);
 #endif  // INCLUDE_ROMANOS_HPP_
